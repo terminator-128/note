@@ -34,6 +34,21 @@ module.exports = {
         },
       ],
     },
+    algolia: {
+      apiKey: '2d9dab75aea5e8490fbefbfb3a38889b',
+      indexName: 'note',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: see doc section below
+      appId: '9VN187C56Q',
+
+      // Optional: Algolia search parameters
+      // searchParameters: {},
+
+      //... other Algolia params
+    },
     footer: {
       style: 'dark',
       links: [
